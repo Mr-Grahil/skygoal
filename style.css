@@ -1,0 +1,255 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    /* border-bottom:0.5px solid rgb(145, 143, 143); */
+    height:110px;
+    box-shadow: 0.5px 1px 5px 0.5px gray;
+}
+ul li{
+    list-style: none;
+    font-size:15px;
+    margin:45px;
+    
+}
+li a{
+    text-decoration:none;
+    color:gray;
+    font-size:23px;
+
+}
+ul{
+    width:50%;
+    height:110px;
+    position:relative;
+    left:320px;
+}
+.navbar ul{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+/* Section main */
+.main1{
+    width:40%;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    position:relative;
+    left:200px;
+    top:130px;
+
+}
+#heading1{
+    font-size:60px;
+    color:rgb(35, 35, 61);
+}
+#heading2{
+    font-size:60px;
+    color:rgb(231, 47, 47);
+}
+.main p{
+    font-size:25px;
+    margin-top:10px;
+    color:rgb(82, 80, 80);
+}
+.btn{
+    font-size:20px;
+    background-color:rgb(223, 70, 70);
+    padding:15px;
+    color:white;
+    border:none;
+    border-radius:3px;
+    margin-top:10px;
+    cursor: pointer;
+    
+}
+.main{
+    display:flex;
+    height:650px;
+    
+}
+.image{
+    height:400px;
+    margin-top:130px;
+    margin-left:180px;
+}
+
+/* section Content */
+.content{
+    height:650px;
+    background-color:rgb(252, 249, 249);
+    display:flex;
+    
+}
+.content2{
+    width:40%;
+    height:420px;
+    margin-top:150px;
+    margin-left:70px;
+}
+.image2{
+    height:500px;
+    margin-top:70px;
+    margin-left:180px;
+}
+
+
+#heading3{
+    font-size:40px;
+    color:rgb(35, 35, 61);
+}
+#heading4{
+    font-size:40px;
+    color:rgb(231, 47, 47);
+}
+#paragraph1{
+    margin:15px;
+    font-size:25px;
+    line-height: 35px;
+}
+#paragraph2{
+    line-height: 35px;
+    font-size:25px;
+    margin:15px;
+}
+.title{
+    margin:15px;
+}
+
+/* section : Product and services */
+.Services{
+    height:630px;
+}
+#heading5{
+    margin-top:120px;
+    margin-bottom:50px;
+    font-size:40px;
+    text-align: center;
+}
+
+.card1{
+    width:23%;
+    margin-left:100px;
+    
+}
+.imgproduct{
+    height:120px;
+}
+
+#heading6{
+    font-size:30px;
+    color:rgb(231, 47, 47);
+    margin:10px;
+}
+#paraservices{
+    margin-top:15px;
+    font-size: 25px;
+    line-height: 35px;
+    color:rgb(122, 121, 121);
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+/* mobile specialist */
+
+#heading7{
+    /* margin-top:80px; */
+    margin-bottom:40px;
+    font-size:40px;
+    text-align: center;
+}
+.imghuman{
+    height:120px;
+    border-radius: 50%;
+    margin-left:25px;
+    margin-top:20px;
+}
+
+.box1 h3{
+    color:rgb(231, 47, 47);
+    text-align:center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+h2{
+    margin-top: 10px;
+    text-align:center;
+}
+
+#imgfb{
+    height:25px;
+    border-radius:50%;
+    box-shadow: 1px 1px 5px 1px gray;
+    border:none;
+    cursor:pointer;
+
+}
+.box1{
+    width:15%;
+}
+.imgbox{
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+    width:40%;
+    margin-left:70px;
+}
+.box1{
+    box-shadow: 0.5px 0.5px 5px  rgb(179, 178, 178);
+    height:270px;
+}
+.box{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+}
+.specialist{
+    height:450px;
+}
+
+/* Contact us  */
+
+.contact-us h1{
+    margin-left:569px;
+    font-size:30px;
+    
+}
+.contact-us{
+    height:200px;
+}
+.contact{
+    display:flex;
+    justify-content:space-around;
+}
+.brandbox{
+    width:30%;
+}
+.brandbox img{
+      margin:10px;
+}
+.para1,.para2{
+    margin-top:20px;
+    font-size:20px;
+    line-height:30px;
+}
+
+/* Footer */
+footer p{
+    font-size:20px;
+    text-align: center;
+    height:60px;
+    background-color:rgb(231, 47, 47);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
